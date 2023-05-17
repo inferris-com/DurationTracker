@@ -91,7 +91,7 @@ public class DurationTracker {
             } else {
                 System.out.println("Recorded durations:");
                 for (String line : lines) {
-                    System.out.println(line + "ms");
+                    System.out.println(line);
                 }
             }
         } catch (IOException e) {
